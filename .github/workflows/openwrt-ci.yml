@@ -13,8 +13,8 @@ on:
   push:
     branches: 
       - master
-  # schedule:
-  #   - cron: 0 20 * * *
+  schedule:
+    - cron: 0 20 * * *
   release:
     types: [published]
 
@@ -60,6 +60,7 @@ jobs:
 
       - name: Update feeds
         run: |
+          sed -i 's/#src-git helloworld/src-git helloworld/g' ./feeds.conf.default
           ./scripts/feeds update -a
           ./scripts/feeds install -a
 
