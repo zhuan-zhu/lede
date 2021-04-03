@@ -98,7 +98,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun is not set
           # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Server is not set
           CONFIG_PACKAGE_luci-app-unblockmusic=y
-          # CONFIG_UnblockNeteaseMusic_Go is not set
+          CONFIG_UnblockNeteaseMusic_Go=y
           CONFIG_UnblockNeteaseMusic_NodeJS=y
           # CONFIG_PACKAGE_luci-app-unbound is not set
           CONFIG_PACKAGE_luci-app-upnp=y
