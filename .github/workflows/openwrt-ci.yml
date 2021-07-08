@@ -86,7 +86,8 @@ jobs:
           CONFIG_PACKAGE_luci-app-netdata=y
           CONFIG_PACKAGE_luci-app-nlbwmon=y
           CONFIG_PACKAGE_luci-app-ramfree=y
-          CONFIG_PACKAGE_luci-app-samba=y
+          # CONFIG_PACKAGE_luci-app-samba is not set
+          # CONFIG_PACKAGE_luci-app-qbittorrent is not set
           CONFIG_PACKAGE_luci-app-sfe=y
           # CONFIG_PACKAGE_luci-app-flowoffload is not set
           CONFIG_PACKAGE_luci-app-ssr-plus=y
